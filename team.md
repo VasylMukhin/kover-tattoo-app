@@ -1,16 +1,16 @@
 ## Skład zespołu
 
-1. **Imię i nazwisko:** Василь Мухін  
-   **Numer albumu:** [WPISZ NUMER]  
+1. **Imię i nazwisko:** Vasyl Mukhin  
+   **Numer albumu:** 161516  
    **Nick w repozytorium:** VasylMukhin
 
-2. **Imię i nazwisko:** [Imię Nazwisko drugiego członka]  
-   **Numer albumu:** [NUMER]  
-   **Nick w repozytorium:** [GitHub nick]
+2. **Imię i nazwisko:** Artem Potrymai  
+   **Numer albumu:** 161387  
+   **Nick w repozytorium:** ArtemPotrymai
 
-3. **Imię i nazwisko:** [Imię Nazwisko trzeciego członka]  
-   **Numer albumu:** [NUMER]  
-   **Nick w repozytorium:** [GitHub nick]
+3. **Imię i nazwisko:** Mikita Haurylkevich  
+   **Numer albumu:** 159842  
+   **Nick w repozytorium:** sxlitude
 
 ---
 
