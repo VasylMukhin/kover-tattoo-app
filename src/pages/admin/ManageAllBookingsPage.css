@@ -1,0 +1,118 @@
+.manage-all-bookings-page {
+  max-width: 900px;
+  margin: 60px auto 40px !important;
+  padding: 24px 32px;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+.manage-all-bookings-page h2 {
+  text-align: center;
+  margin-bottom: 24px;
+  font-weight: 700;
+  color: #222;
+}
+
+.manage-all-bookings-page table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 0;
+  font-size: 16px;
+  border: none;
+}
+
+.manage-all-bookings-page thead th {
+  background-color: #DAA520;
+  color: white;
+  font-weight: 700;
+  padding: 12px 10px;
+  text-align: left;
+  user-select: none;
+  border-bottom: 1px solid transparent;
+  border-right: 1px solid transparent;
+}
+
+.manage-all-bookings-page thead th:last-child {
+  border-right: none;
+}
+
+.manage-all-bookings-page tbody tr {
+  transition: background-color 0.3s ease;
+}
+
+.manage-all-bookings-page tbody tr:hover {
+  background-color: #f0e68c;
+}
+
+.manage-all-bookings-page tbody td {
+  padding: 12px 10px;
+  vertical-align: middle;
+  color: #333;
+  border-right: 1px solid transparent;
+}
+
+.manage-all-bookings-page tbody td:last-child {
+  border-right: none;
+  text-align: center;
+}
+
+.manage-all-bookings-page button {
+  background-color: #DAA520;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.manage-all-bookings-page button:hover {
+  background-color: #B8860B;
+}
+
+.manage-all-bookings-page p {
+  text-align: center;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 10px 14px;
+  border-radius: 6px;
+  border: 1px solid transparent;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 420px) {
+  .manage-all-bookings-page {
+    padding: 12px 10px;
+    font-size: 14px; 
+    margin: 30px 8px 20px !important;
+  }
+
+  .manage-all-bookings-page h2 {
+    font-size: 20px; 
+    margin-bottom: 12px;
+  }
+
+  .manage-all-bookings-page table {
+    font-size: 14px;
+  }
+
+  .manage-all-bookings-page thead th {
+    padding: 6px 4px;
+    font-size: 12px; 
+  }
+
+  .manage-all-bookings-page tbody td {
+    padding: 6px 4px;
+    font-size: 12px; 
+  }
+
+  .manage-all-bookings-page button {
+    padding: 4px 8px; 
+    font-size: 12px;  
+  }
+}

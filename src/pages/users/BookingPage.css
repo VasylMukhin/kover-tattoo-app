@@ -1,0 +1,125 @@
+.booking-page {
+  max-width: 600px;
+  margin: 60px auto 40px !important;
+  padding: 24px 32px;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+.booking-page h2 {
+  text-align: center;
+  margin-bottom: 24px;
+  font-weight: 700;
+  color: #222;
+}
+
+.booking-page label {
+  font-weight: 600;
+  color: #555;
+  display: inline-block;
+  margin-bottom: 8px;
+}
+
+.booking-page input[type="date"],
+.booking-page select {
+  width: 100%;
+  padding: 8px 12px;
+  font-size: 16px;
+  border: 1.8px solid #ccc;
+  border-radius: 6px;
+  transition: border-color 0.3s ease;
+  box-sizing: border-box;
+  margin-bottom: 18px;
+}
+
+.booking-page input[type="date"]:focus,
+.booking-page select:focus {
+  border-color: #DAA520;
+  outline: none;
+}
+
+.hours-selection {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.hours-selection button {
+  width: 60px;
+  padding: 10px 0;
+  background-color: white;
+  border: 1.8px solid #ccc;
+  border-radius: 6px;
+  font-weight: 600;
+  color: #333;
+  cursor: pointer;
+  transition: background-color 0.25s ease, color 0.25s ease, border-color 0.25s ease;
+}
+
+.hours-selection button:hover:not(:disabled) {
+  background-color: #f0e68c;
+}
+
+.hours-selection button:disabled {
+  background-color: #d3d3d3;
+  color: #777;
+  cursor: not-allowed;
+}
+
+.hours-selection button.selected {
+  background-color: #DAA520;
+  color: white;
+  border-color: #b8860b;
+}
+
+.price-display {
+  margin-bottom: 24px;
+  font-weight: 700;
+  font-size: 18px;
+  color: #222;
+  text-align: center;
+}
+
+.save-reservation-btn {
+  width: 100% !important;
+  padding: 14px 0 !important;
+  font-size: 18px !important;
+  font-weight: 700 !important;
+  color: white !important;
+  background-color: #c49100;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-sizing: border-box;
+}
+
+.save-reservation-btn:hover {
+  background-color: #a17300;
+}
+
+.message {
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 10px 14px;
+  border-radius: 6px;
+  border: 1px solid transparent;
+  text-align: center;
+}
+
+.message.success {
+  color: #2c7a2c;
+  background-color: #dff0d8;
+  border-color: #c3e6cb;
+}
+
+.message.error {
+  color: #a94442;
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+}

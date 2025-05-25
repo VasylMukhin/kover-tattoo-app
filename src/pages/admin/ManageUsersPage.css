@@ -1,0 +1,132 @@
+.manage-users-page {
+  max-width: 600px;
+  margin: 60px auto 40px !important;
+  padding: 24px 32px;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+.manage-users-page h1 {
+  text-align: center;
+  margin-bottom: 24px;
+  font-weight: 700;
+  color: #222;
+}
+
+.manage-users-page table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 0;
+  font-size: 16px;
+  border: none;
+}
+
+.manage-users-page thead th {
+  background-color: #DAA520;
+  color: white;
+  font-weight: 700;
+  padding: 12px 10px;
+  text-align: left;
+  border-radius: 0;
+  user-select: none;
+  border-bottom: 1px solid #bbb;
+  border-right: 1px solid #ddd;
+}
+
+.manage-users-page thead th:last-child {
+  border-right: none;
+}
+
+.manage-users-page tbody tr {
+  border-bottom: 1px solid #ddd;
+  transition: background-color 0.3s ease;
+}
+
+.manage-users-page tbody tr:hover {
+  background-color: #f0e68c;
+}
+
+.manage-users-page tbody td {
+  padding: 12px 10px;
+  vertical-align: middle;
+  color: #333;
+  border-right: 1px solid #ddd;
+}
+
+.manage-users-page tbody td:last-child {
+  border-right: none;
+  text-align: center;
+}
+
+.manage-users-page button {
+  background-color: #d9534f;
+  color: white;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 6px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 14px;
+}
+
+.manage-users-page button:hover {
+  background-color: #c9302c;
+}
+
+.manage-users-page p {
+  text-align: center;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 10px 14px;
+  border-radius: 6px;
+  border: 1px solid transparent;
+  margin-bottom: 20px;
+}
+
+.manage-users-page p.error {
+  color: #a94442;
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+}
+
+@media (max-width: 420px) {
+  .manage-users-page {
+    padding: 16px 12px;
+    margin: 30px 8px 20px !important;
+    font-size: 13px;
+  }
+
+  .manage-users-page h1 {
+    font-size: 17px;
+    margin-bottom: 16px;
+  }
+
+  .manage-users-page table {
+    font-size: 12px;
+  }
+
+  .manage-users-page thead th {
+    font-size: 11px;
+    padding: 6px 4px;
+  }
+
+  .manage-users-page tbody td {
+    font-size: 11px;
+    padding: 6px 4px;
+  }
+
+  .manage-users-page button {
+    padding: 6px 6px !important;
+    font-size: 11px !important;
+  }
+
+  .manage-users-page p {
+    font-size: 12px;
+    padding: 6px 8px;
+    margin-bottom: 12px;
+  }
+}

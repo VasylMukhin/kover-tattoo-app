@@ -1,0 +1,168 @@
+.manage-places-prices-page {
+  max-width: 600px;
+  margin: 60px auto 40px !important;
+  padding: 24px 32px;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+.manage-places-prices-page h1,
+.manage-places-prices-page h2 {
+  text-align: center;
+  margin-bottom: 24px;
+  font-weight: 700;
+  color: #222;
+}
+
+.manage-places-prices-page label {
+  font-size: 16px;
+  font-weight: 600;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.manage-places-prices-page input[type="number"] {
+  padding: 6px 10px;
+  font-size: 16px;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  width: 100px;
+  margin-right: 10px;
+  background-color: #fff;
+}
+
+.manage-places-prices-page button {
+  background-color: #DAA520;
+  color: white;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 6px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 14px;
+}
+
+.manage-places-prices-page button:hover {
+  background-color: #B8860B;
+}
+
+.manage-places-prices-page table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 0;
+  font-size: 16px;
+  border: none;
+}
+
+.manage-places-prices-page thead th {
+  background-color: #DAA520;
+  color: white;
+  font-weight: 700;
+  padding: 12px 10px;
+  text-align: left;
+  user-select: none;
+  border-bottom: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+}
+
+.manage-places-prices-page thead th:last-child {
+  border-right: none;
+}
+
+.manage-places-prices-page tbody tr {
+  border-bottom: 1px solid #ddd;
+  transition: background-color 0.3s ease;
+}
+
+.manage-places-prices-page tbody tr:hover {
+  background-color: #f0e68c;
+}
+
+.manage-places-prices-page tbody td {
+  padding: 12px 10px;
+  vertical-align: middle;
+  color: #333;
+  border-right: 1px solid #ddd;
+}
+
+.manage-places-prices-page tbody td:last-child {
+  border-right: none;
+  text-align: center;
+}
+
+.manage-places-prices-page p {
+  text-align: center;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 10px 14px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+}
+
+.manage-places-prices-page p.error {
+  color: #a94442;
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+}
+
+.manage-places-prices-page p.success {
+  color: #155724;
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+}
+
+@media (max-width: 420px) {
+  .manage-places-prices-page {
+    padding: 16px 12px;
+    margin: 30px 8px 20px !important;
+    font-size: 14px;
+  }
+
+  .manage-places-prices-page h1,
+  .manage-places-prices-page h2 {
+    font-size: 18px;
+    margin-bottom: 16px;
+  }
+
+  .manage-places-prices-page label {
+    font-size: 14px;
+    margin-right: 6px;
+  }
+
+  .manage-places-prices-page input[type="number"] {
+    padding: 4px 8px;
+    font-size: 14px;
+    width: 80px;
+    margin-right: 6px;
+  }
+
+  .manage-places-prices-page button {
+    padding: 4px 10px;
+    font-size: 12px;
+  }
+
+  .manage-places-prices-page table {
+    font-size: 13px;
+  }
+
+  .manage-places-prices-page thead th {
+    padding: 6px 6px;
+    font-size: 12px;
+  }
+
+  .manage-places-prices-page tbody td {
+    padding: 6px 6px;
+    font-size: 12px;
+  }
+
+  .manage-places-prices-page p {
+    font-size: 13px;
+    padding: 6px 8px;
+    margin-bottom: 12px;
+  }
+}
